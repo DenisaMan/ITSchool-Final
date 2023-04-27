@@ -1,0 +1,1 @@
+export const BASE_URL="https://itschool-library.onrender.com/auth/login"

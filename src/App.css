@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+    :root {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.FlexCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    max-height: 700px;
+    overflow: auto;
+  }
+  
+  .modal-content h1 {
+    margin-top: 0;
+  }
+  
+  .modal-content p {
+    margin-bottom: 1rem;
+  }
+  
+  .modal-content button {
+    margin-top: 1rem;
+  }
+
+  .galleryItem {
+    position: relative;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .appWrapper {
+    margin-top: 30px;
+  }
+
+  .title {
+    font-size: 30px;
+    font-family: 'Handlee', cursive;
+  }
+
+.mainTitle {
+  margin-bottom: 30px;
+}
+
+.descriptionContent {
+  font-family: 'Handlee', cursive;
+  font-size: 24px;
+}
+
+.modalTitle {
+  font-family: 'Handlee', cursive;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.modalButton {
+  background-color: #d32f2f;
+  color: #fff;
+  font-family: 'Handlee', cursive;
+  font-size: 25px;
+  border: transparent;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.drawerItem {
+  color: #d32f2f;
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+}

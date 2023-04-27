@@ -37,7 +37,7 @@ export function Header(props) {
       </ListItem>
       <ListItem button>
         <div>
-        <Link component={NavLink} to="/register" className="linkItem">
+        <Link component={NavLink} to="/login" className="linkItem">
           <span className="drawerItem">Login</span>
         </Link>
         </div>
